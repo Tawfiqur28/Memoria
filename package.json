@@ -1,0 +1,18 @@
+{
+  "name": "memoria-os",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev -w memoria-backend",
+    "dev:caregiver": "npm run dev -w caregiver-web",
+    "dev:patient": "npm run start -w patient-mobile",
+    "dev:desktop": "npm run dev -w desktop-agent"
+  },
+  "dependencies": {
+    "expo-av": "~14.0.7"
+  }
+}

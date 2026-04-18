@@ -1,0 +1,14 @@
+{
+  "name": "desktop-agent",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "dotenv": "^17.4.2",
+    "electron": "^30.5.1"
+  }
+}

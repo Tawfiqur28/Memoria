@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Memoria OS",
+    "slug": "memoria-os",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "permissions": ["RECORD_AUDIO", "READ_PHONE_STATE"],
+      "package": "com.memoria.os"
+    }
+  }
+}
